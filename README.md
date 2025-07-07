@@ -38,6 +38,8 @@ class CafeFactory:
             raise ValueError("Tipo de café no válido")
         cafe.inicializar()
         return cafe
+
+
 ---
 
 ### 2. Builder
