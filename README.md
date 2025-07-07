@@ -39,7 +39,7 @@ class CafeFactory:
         cafe.inicializar()
         return cafe
 
-
+````
 ---
 
 ### 2. Builder
@@ -74,6 +74,7 @@ class CafeDirector:
         self.builder.agregar_ingredientes(ingredientes)
         self.builder.set_tamanio(tamanio)
 
+````
 ---
 
 ### 3. Singleton
@@ -98,6 +99,8 @@ class Logger:
 
     def obtener_logs(self):
         return self._logs
+
+````
 ---
 
 ## Uso de la API
